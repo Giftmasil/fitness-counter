@@ -13,3 +13,9 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function reset() {
+    saveEl.textContent = "Previous sets: " 
+    countEl.textContent = 0;
+    count = 0;
+}
